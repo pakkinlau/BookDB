@@ -4,7 +4,7 @@ setup(
     name='BookDB',
     version='0.1.1',
     description='A tool for populating book data into databases for big data processing',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='Pak Kin Lau',
     author_email='pakkinlau.general@gmail.com',
@@ -12,8 +12,7 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     install_requires=[
-        # List your package dependencies here
-        # 'requests', 'pandas', etc.
+        # Add dependencies here, e.g., 'requests', 'pandas', etc.
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
